@@ -1,0 +1,32 @@
+{
+  "cafe_name": "Café Zeit",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Café%20Zeit&query_place_id=ChIJVZmRPX5aqEcR69sbdf2UdZo",
+  "estimated_rating": "4.5/5",
+  "features": [
+    "Guter Kaffee",
+    "Frühstück",
+    "Outdoor Seating",
+    "Cozy Interior",
+    "Quality Coffee"
+  ],
+  "reviews": [
+    {
+      "author": "Customer Review",
+      "rating": 5,
+      "text": "Wunderbare gemütliche Atmosphäre mit herrlichem Außenbereich. Der Kaffee ist ausgezeichnet!",
+      "date": "2024"
+    },
+    {
+      "author": "Berlin Coffee Lover",
+      "rating": 5,
+      "text": "Ein verstecktes Juwel in Steglitz. Perfekt für ein ruhiges Frühstück oder einen entspannten Nachmittagskaffee.",
+      "date": "2024"
+    },
+    {
+      "author": "Local Guest",
+      "rating": 4,
+      "text": "Sehr guter Kaffee und freundlicher Service. Der Garten ist im Sommer besonders schön.",
+      "date": "2024"
+    }
+  ]
+}

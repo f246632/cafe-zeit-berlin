@@ -1,0 +1,75 @@
+{
+  "cafe_name": "Café Zeit",
+  "categories": [
+    {
+      "name": "Kaffee & Getränke",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Italienischer Espresso aus hochwertigen Bohnen",
+          "price": "€2.50"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Klassischer Cappuccino mit perfekt aufgeschäumter Milch",
+          "price": "€3.50"
+        },
+        {
+          "name": "Latte Macchiato",
+          "description": "Cremiger Latte mit verschiedenen Milchoptionen",
+          "price": "€3.80"
+        },
+        {
+          "name": "Americano",
+          "description": "Espresso verlängert mit heißem Wasser",
+          "price": "€3.00"
+        },
+        {
+          "name": "Filterkaffee",
+          "description": "Handgebrühter Filterkaffee",
+          "price": "€2.80"
+        }
+      ]
+    },
+    {
+      "name": "Frühstück",
+      "items": [
+        {
+          "name": "Klassisches Frühstück",
+          "description": "Brötchen, Butter, Marmelade, Käse, Aufschnitt",
+          "price": "€7.50"
+        },
+        {
+          "name": "Croissant",
+          "description": "Frisches französisches Croissant",
+          "price": "€2.50"
+        },
+        {
+          "name": "Müsli",
+          "description": "Hausgemachtes Müsli mit Joghurt und frischen Früchten",
+          "price": "€6.50"
+        }
+      ]
+    },
+    {
+      "name": "Kuchen & Gebäck",
+      "items": [
+        {
+          "name": "Kuchen des Tages",
+          "description": "Täglich wechselnde hausgemachte Kuchen",
+          "price": "€4.50"
+        },
+        {
+          "name": "Gebäck",
+          "description": "Verschiedene frische Backwaren",
+          "price": "ab €2.00"
+        }
+      ]
+    }
+  ],
+  "special_notes": [
+    "Pflanzenmilch verfügbar",
+    "Vegetarische Optionen",
+    "Saisonale Spezialitäten"
+  ]
+}

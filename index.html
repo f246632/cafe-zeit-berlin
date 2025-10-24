@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Zeit - Ein gemütliches Café in Berlin Steglitz mit hervorragendem Kaffee, Frühstück und charmanter Atmosphäre. Besuchen Sie uns in der Gritznerstraße 43.">
+    <meta name="keywords" content="Café, Berlin, Steglitz, Kaffee, Frühstück, Coffee, Gritznerstraße">
+    <meta name="author" content="Café Zeit">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Café Zeit - Gemütliches Café in Berlin Steglitz">
+    <meta property="og:description" content="Genießen Sie erstklassigen Kaffee und Frühstück in unserem charmanten Café mit wunderschönem Außenbereich.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/optimized/hero-outdoor.jpg">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Café Zeit",
+      "image": "./images/optimized/hero-outdoor.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gritznerstraße 43",
+        "addressLocality": "Berlin",
+        "postalCode": "12163",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "52.4608",
+        "longitude": "13.3272"
+      },
+      "servesCuisine": "Café, Breakfast",
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5"
+      }
+    }
+    </script>
+
+    <title>Café Zeit - Gemütliches Café in Berlin Steglitz | Kaffee & Frühstück</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Café Zeit</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Menü</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#reviews" class="nav-link">Bewertungen</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Café Zeit</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Ihr Ort für Zeit & Genuss</p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                Ein gemütliches Refugium im Herzen von Steglitz
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                <a href="#menu" class="btn btn-primary">Unsere Karte</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Willkommen im Café Zeit</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="lead">
+                        In unserem charmanten Café in der Gritznerstraße finden Sie mehr als nur guten Kaffee –
+                        Sie finden einen Ort, an dem die Zeit stillsteht und Genuss im Mittelpunkt steht.
+                    </p>
+                    <p>
+                        Ob Sie Ihren Tag mit einem reichhaltigen Frühstück beginnen möchten oder einfach nur
+                        einen perfekt zubereiteten Espresso in unserem sonnigen Außenbereich genießen möchten –
+                        bei uns sind Sie herzlich willkommen.
+                    </p>
+                    <p>
+                        Unser gemütliches Ambiente mit warmem Interieur und schönem Gartenbereich lädt zum
+                        Verweilen ein. Hier können Sie dem Trubel der Stadt entfliehen und echte Berliner
+                        Café-Kultur erleben.
+                    </p>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="./images/optimized/interior-1.jpg" alt="Café Zeit Interior">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3>Gemütliche Atmosphäre</h3>
+                            <p>Perfekt zum Entspannen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features" data-aos="fade-up">
+                <div class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Guter Kaffee</h3>
+                    <p>Hochwertige Kaffeebohnen, fachkundig zubereitet</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥐</div>
+                    <h3>Frühstück</h3>
+                    <p>Frische Zutaten für einen perfekten Start in den Tag</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Outdoor Seating</h3>
+                    <p>Genießen Sie Ihren Kaffee in unserem schönen Garten</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏡</div>
+                    <h3>Gemütlich</h3>
+                    <p>Eine warme, einladende Atmosphäre zum Wohlfühlen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Unsere Karte</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Genießen Sie unsere Auswahl an Kaffee, Frühstück und hausgemachten Leckereien</p>
+            </div>
+
+            <div class="menu-categories">
+                <!-- Coffee Category -->
+                <div class="menu-category" data-aos="fade-up">
+                    <h3 class="category-title">
+                        <span class="category-icon">☕</span>
+                        Kaffee & Getränke
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Espresso</h4>
+                                <span class="price">€2.50</span>
+                            </div>
+                            <p class="menu-item-description">Italienischer Espresso aus hochwertigen Bohnen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Cappuccino</h4>
+                                <span class="price">€3.50</span>
+                            </div>
+                            <p class="menu-item-description">Klassischer Cappuccino mit perfekt aufgeschäumter Milch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Latte Macchiato</h4>
+                                <span class="price">€3.80</span>
+                            </div>
+                            <p class="menu-item-description">Cremiger Latte mit verschiedenen Milchoptionen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Americano</h4>
+                                <span class="price">€3.00</span>
+                            </div>
+                            <p class="menu-item-description">Espresso verlängert mit heißem Wasser</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Filterkaffee</h4>
+                                <span class="price">€2.80</span>
+                            </div>
+                            <p class="menu-item-description">Handgebrühter Filterkaffee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Breakfast Category -->
+                <div class="menu-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <span class="category-icon">🥐</span>
+                        Frühstück
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Klassisches Frühstück</h4>
+                                <span class="price">€7.50</span>
+                            </div>
+                            <p class="menu-item-description">Brötchen, Butter, Marmelade, Käse, Aufschnitt</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Croissant</h4>
+                                <span class="price">€2.50</span>
+                            </div>
+                            <p class="menu-item-description">Frisches französisches Croissant</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Müsli</h4>
+                                <span class="price">€6.50</span>
+                            </div>
+                            <p class="menu-item-description">Hausgemachtes Müsli mit Joghurt und frischen Früchten</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cakes & Pastries Category -->
+                <div class="menu-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <span class="category-icon">🍰</span>
+                        Kuchen & Gebäck
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Kuchen des Tages</h4>
+                                <span class="price">€4.50</span>
+                            </div>
+                            <p class="menu-item-description">Täglich wechselnde hausgemachte Kuchen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Gebäck</h4>
+                                <span class="price">ab €2.00</span>
+                            </div>
+                            <p class="menu-item-description">Verschiedene frische Backwaren</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-notes" data-aos="fade-up">
+                <p><strong>Hinweis:</strong> Pflanzenmilch verfügbar • Vegetarische Optionen • Saisonale Spezialitäten</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Galerie</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Entdecken Sie die Atmosphäre unseres Cafés</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="./images/optimized/hero-outdoor.jpg" alt="Outdoor seating area" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Außenbereich</h3>
+                        <p>Unser sonniger Garten</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/optimized/coffee-1.jpg" alt="Coffee cup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Kaffeegenuss</h3>
+                        <p>Perfekt zubereitet</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/optimized/coffee-2.jpg" alt="Coffee cups" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Mit Liebe serviert</h3>
+                        <p>Qualität in jeder Tasse</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/optimized/interior-1.jpg" alt="Interior view" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Gemütliches Interieur</h3>
+                        <p>Wohlfühlatmosphäre</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="./images/optimized/gallery-2.jpg" alt="Cafe atmosphere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Ambiente</h3>
+                        <p>Einladend & warm</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="./images/optimized/gallery-3.jpg" alt="Cafe details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Details</h3>
+                        <p>Mit Liebe gestaltet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Was unsere Gäste sagen</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="reviews-container">
+                <div class="review-card" data-aos="fade-up">
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">
+                        "Wunderbare gemütliche Atmosphäre mit herrlichem Außenbereich. Der Kaffee ist ausgezeichnet!"
+                    </p>
+                    <p class="review-author">— Customer Review</p>
+                </div>
+
+                <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">
+                        "Ein verstecktes Juwel in Steglitz. Perfekt für ein ruhiges Frühstück oder einen entspannten Nachmittagskaffee."
+                    </p>
+                    <p class="review-author">— Berlin Coffee Lover</p>
+                </div>
+
+                <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">
+                        "Sehr guter Kaffee und freundlicher Service. Der Garten ist im Sommer besonders schön."
+                    </p>
+                    <p class="review-author">— Local Guest</p>
+                </div>
+            </div>
+
+            <div class="reviews-cta" data-aos="fade-up">
+                <a href="https://www.google.com/maps/search/?api=1&query=Café%20Zeit&query_place_id=ChIJVZmRPX5aqEcR69sbdf2UdZo" target="_blank" class="btn btn-primary">
+                    Mehr Bewertungen auf Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Besuchen Sie uns</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="location-content">
+                <div class="location-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3>📍 Adresse</h3>
+                        <p>Gritznerstraße 43<br>12163 Berlin<br>Deutschland</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🚇 Anfahrt</h3>
+                        <p>
+                            <strong>U-Bahn:</strong> U9 Rathaus Steglitz<br>
+                            <strong>Bus:</strong> Diverse Linien in Steglitz<br>
+                            <strong>Parken:</strong> Straßenparkplätze vorhanden
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📞 Kontakt</h3>
+                        <p>
+                            Telefon: <a href="tel:Gritznerstraße 43">Gritznerstraße 43</a><br>
+                            <em>Für Reservierungen und Anfragen</em>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="location-map" data-aos="fade-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.5!2d13.3272!3d52.4608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a75947dfd1b9beb!2sCaf%C3%A9%20Zeit!5e0!3m2!1sde!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Wir freuen uns von Ihnen zu hören</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-container" data-aos="fade-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-container" data-aos="fade-left">
+                    <div class="contact-info-card">
+                        <h3>Besuchen Sie uns</h3>
+                        <p>Kommen Sie vorbei und genießen Sie eine Tasse Kaffee in entspannter Atmosphäre.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/cafe.zeit.2023/" target="_blank" class="social-link" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/zeit_cafe/" target="_blank" class="social-link" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café Zeit</h3>
+                    <p>Ihr Ort für Zeit & Genuss in Berlin Steglitz</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Adresse</h4>
+                    <p>Gritznerstraße 43<br>12163 Berlin</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Folgen Sie uns</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/cafe.zeit.2023/" target="_blank" aria-label="Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/zeit_cafe/" target="_blank" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Café Zeit. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

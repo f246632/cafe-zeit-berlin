@@ -1,0 +1,452 @@
+/* ===================================
+   Café Zeit - Responsive Styles
+   Mobile-first responsive design
+   =================================== */
+
+/* Tablet Landscape and Below (1024px) */
+@media (max-width: 1024px) {
+    :root {
+        --section-padding: 80px;
+    }
+
+    h1 { font-size: 3rem; }
+    h2 { font-size: 2rem; }
+
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablet Portrait (768px) */
+@media (max-width: 768px) {
+    :root {
+        --section-padding: 60px;
+    }
+
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 280px;
+        height: calc(100vh - 70px);
+        background: var(--white);
+        flex-direction: column;
+        padding: 40px 30px;
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        gap: 0;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        margin-bottom: 25px;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* About */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    /* Menu */
+    .menu-category {
+        padding: 30px 20px;
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Reviews */
+    .reviews-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+/* Mobile (576px) */
+@media (max-width: 576px) {
+    :root {
+        --section-padding: 50px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.4rem; }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Navigation */
+    .nav-brand .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu {
+        width: 100%;
+        right: -100%;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+
+    /* Section Headers */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    /* About */
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-image img {
+        height: 300px;
+    }
+
+    /* Menu */
+    .menu-category {
+        padding: 25px 15px;
+    }
+
+    .category-icon {
+        font-size: 2rem;
+    }
+
+    .menu-item {
+        padding: 20px;
+    }
+
+    .menu-item-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .menu-item h4 {
+        font-size: 1.1rem;
+    }
+
+    .price {
+        font-size: 1.1rem;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .gallery-overlay {
+        padding: 20px;
+    }
+
+    .gallery-overlay h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Reviews */
+    .review-card {
+        padding: 30px 20px;
+    }
+
+    .review-card::before {
+        font-size: 3rem;
+        top: 15px;
+        left: 15px;
+    }
+
+    .review-text {
+        font-size: 1rem;
+    }
+
+    /* Location */
+    .info-card {
+        padding: 25px 20px;
+    }
+
+    .location-map iframe {
+        height: 300px;
+    }
+
+    /* Contact */
+    .contact-info-card {
+        padding: 30px 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    /* Lightbox */
+    .lightbox-close {
+        top: 20px;
+        right: 20px;
+        font-size: 2.5rem;
+    }
+
+    .lightbox-caption {
+        font-size: 1rem;
+        bottom: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-content {
+        gap: 25px;
+    }
+}
+
+/* Extra Small Mobile (400px) */
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        padding: 15px;
+    }
+
+    .review-card {
+        padding: 25px 15px;
+    }
+}
+
+/* Landscape Mobile Devices */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        min-height: 400px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+/* Large Screens (1440px+) */
+@media (min-width: 1440px) {
+    :root {
+        --container-width: 1400px;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+}
+
+/* 4K and Ultra-Wide Screens (2560px+) */
+@media (min-width: 2560px) {
+    :root {
+        --container-width: 1800px;
+        font-size: 18px;
+    }
+
+    .hero {
+        min-height: 800px;
+    }
+
+    .hero-title {
+        font-size: 6rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .scroll-indicator,
+    .nav-toggle,
+    .contact-form,
+    .lightbox {
+        display: none !important;
+    }
+
+    .hero {
+        height: auto;
+        min-height: auto;
+        page-break-after: always;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 10pt;
+    }
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #6B2F36;
+        --text-dark: #000000;
+        --border-color: #000000;
+    }
+
+    .btn {
+        border-width: 3px;
+    }
+
+    .nav-link::after {
+        height: 3px;
+    }
+}
+
+/* Dark Mode Preference */
+@media (prefers-color-scheme: dark) {
+    /* Optional: Add dark mode styles if desired */
+    /* Currently maintaining light theme for cafe aesthetic */
+}
